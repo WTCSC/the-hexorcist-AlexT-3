@@ -8,7 +8,17 @@
 * Python3
 
 ### Testing:
-There are several test functions to ensure that the program is able to convert a number from any base to a decimal, as well as converting any decimal into another base. To ensure that your functions are working properly, navigate to the project directory and execute pytest. The code should look like this if all functions are working properly:
+There are several test functions to ensure that the program is able to convert a number from any base to a decimal, as well as converting any decimal into another base. To ensure that your functions are working properly, navigate to the project directory and execute `pytest`. The code should look like this if all functions are working properly:
+```
+============================================================================================= test session starts =============================================================================================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+rootdir: /home/tuella@CSGP.EDU/Projects/the-hexorcist-AlexT-3
+collected 8 items                                                                                                                                                                                                       
+
+test_calculator.py ........                                                                                                                                                                                       [100%]
+
+============================================================================================== 8 passed in 0.02s ==============================================================================================
+```
 
 ### Startup and usage:
 Within the terminal, type in the command `python3 hexorcist.py`. The program will ask you to follow the prompts:

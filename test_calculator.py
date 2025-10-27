@@ -1,5 +1,5 @@
 import pytest
-from hexorcist import to_decimal, from_decimal
+from hex_functions import from_decimal, to_decimal
 
 def test_to_decimal_base16():
     assert to_decimal("C7", 16) == 199
